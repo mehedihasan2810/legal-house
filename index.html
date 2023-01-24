@@ -261,11 +261,11 @@
           </p>
           <!-- card container -->
           <div
-            class="grid grid-cols-1 md:grid-cols-2 lg:!grid-cols-3 justify-items-center mx-auto"
+            class="w-fit grid grid-cols-1 md:grid-cols-2 lg:!grid-cols-3 justify-items-center mx-auto"
           >
             <!-- card-1 -->
             <div
-              class="p-[4.375rem] max-w-[25rem] flex flex-col items-center justify-center text-center border lg:!border-0"
+              class="p-[4.375rem] max-w-[25rem] flex flex-col items-center justify-center text-center border lg:!border-t-0 lg:!border-l-0"
             >
               <img
                 class="mb-8"
@@ -305,7 +305,7 @@
             </div>
             <!-- card-3 -->
             <div
-              class="p-[4.375rem] max-w-[25rem] flex flex-col items-center justify-center text-center lg:!border-0 border"
+              class="p-[4.375rem] max-w-[25rem] flex flex-col items-center justify-center text-center border lg:!border-t-0 lg:!border-r-0"
             >
               <img
                 class="mb-8"
@@ -345,7 +345,7 @@
             </div>
             <!-- card-5 -->
             <div
-              class="p-[4.375rem] max-w-[25rem] flex flex-col items-center justify-center text-center border lg:!border-0"
+              class="p-[4.375rem] max-w-[25rem] flex flex-col items-center justify-center text-center border lg:!border-b-0"
             >
               <img
                 class="mb-8"
@@ -365,7 +365,7 @@
             </div>
             <!-- card-6 -->
             <div
-              class="p-[4.375rem] max-w-[25rem] flex flex-col items-center justify-center text-center border lg:!border-r-0 lg:!border-b-0"
+              class="p-[4.375rem] max-w-[25rem] flex flex-col items-center justify-center text-center border lg:!border-b-0 lg:!border-r-0"
             >
               <img class="mb-8" src="./images/tax.png" loading="lazy" alt="" />
               <h3 class="mb-6 text-3xl text-gray-700 font-extrabold">
@@ -747,6 +747,112 @@
           </div>
         </section>
         <!-- FAQ SECTION ENDS -->
+
+        <!-- CONTACT SECTION STARTS -->
+        <section class="mt-[5rem] sm:mt-[7.5rem] text-center">
+          <h2 class="text-[2.5rem] font-extrabold mb-6 text-gray-800">
+            Contact With Us
+          </h2>
+          <p class="text-gray-500 mb-16 max-w-[70ch] mx-auto">
+            If you have any question or any suggestion regarding us we really
+            would like to hear from you. Please don't hesitate to share with us.
+          </p>
+
+          <div
+            class="grid items-center grid-cols-1 lg:!grid-cols-[max\-content_1fr] gap-6"
+          >
+            <address
+              class="not-italic grid grid-cols-1 justify-items-center sm:grid-cols-2 sm:mx-auto sm:w-fit"
+            >
+              <div
+                class="p-14 !bg-[#f3f3f3] flex flex-col items-center justify-center w-[17rem] space-y-4 border sm:!border-t-0 sm:!border-l-0"
+              >
+                <img class="" src="./images/location.png" alt="" />
+                <h3 class="text-gray-800 text-2xl font-extrabold">Address</h3>
+                <p class="text-gray-500">
+                  A108 Adam Street,<br />
+                  New York, NY 535022
+                </p>
+              </div>
+              <div
+                class="p-14 !bg-[#f3f3f3] flex flex-col items-center justify-center w-[17rem] space-y-4 border sm:!border-t-0 sm:!border-r-0"
+              >
+                <img class="" src="./images/call.png" alt="" />
+                <h3 class="text-gray-800 text-2xl font-extrabold">Call Us</h3>
+                <p class="text-gray-500">
+                  +88 01750 00 00 00<br />
+                  +88 01750 00 00 00
+                </p>
+              </div>
+              <div
+                class="p-14 !bg-[#f3f3f3] flex flex-col items-center justify-center w-[17rem] space-y-4 border sm:!border-l-0 sm:!border-b-0"
+              >
+                <img class="" src="./images/email.png" alt="" />
+                <h3 class="text-gray-800 text-2xl font-extrabold">Email Us</h3>
+                <p class="text-gray-500">
+                  info@gmail.com<br />
+                  info@gmail.com
+                </p>
+              </div>
+              <div
+                class="p-14 !bg-[#f3f3f3] flex flex-col items-center justify-center w-[17rem] space-y-4 border sm:!border-r-0 sm:!border-b-0"
+              >
+                <img class="" src="./images/time.png" alt="" />
+                <h3 class="text-gray-800 text-2xl font-extrabold">
+                  Working Hours
+                </h3>
+                <p class="text-gray-500">
+                  Mon-Fri: 9AM to 5PM<br />
+                  Sunday: 9AM to 1 PM
+                </p>
+              </div>
+            </address>
+
+            <form class="space-y-7">
+              <label class="" for="text"
+                ><input
+                  class="border-0 rounded-md p-4 w-full !bg-[#f3f3f3] mb-4"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Your name"
+              /></label>
+              <label class="" for="email"
+                ><input
+                  class="border-0 rounded-md p-4 w-full !bg-[#f3f3f3] mb-4"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your email"
+              /></label>
+              <label class="" for="text"
+                ><input
+                  class="border-0 rounded-md p-4 w-full !bg-[#f3f3f3] mb-4"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Subject"
+              /></label>
+              <label class="" for="message">
+                <textarea
+                  class="resize-none border-0 rounded-md p-4 w-full mb-4 !bg-[#f3f3f3]"
+                  id="message"
+                  rows="5"
+                  cols="50"
+                  name="name"
+                  id="name"
+                  placeholder="message"
+                ></textarea>
+              </label>
+              <button
+                class="w-full !mt-0 rounded-md text-white text-lg py-3 px-4 bg-[#b68c5a]"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </section>
+        <!-- CONTACT SECTION ENDS -->
       </div>
     </main>
     <!-- MAIN ENDS -->
