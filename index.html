@@ -552,11 +552,202 @@
                 <span class="sr-only">Next</span>
               </span>
             </button>
-
-            <!-- Heading -->
           </div>
         </section>
         <!-- REVIEWS SECTION ENDS -->
+
+        <!-- FAQ SECTION STARTS -->
+        <section class="mt-[5rem] sm:mt-[7.5rem] text-center">
+          <h2 class="text-[2.5rem] font-extrabold mb-6 text-gray-800">
+            Frequently Asked Any Questions
+          </h2>
+          <p class="text-gray-500 mb-16 max-w-[70ch] mx-auto">
+            Some of the most asked question are given below which get almost all
+            the time. If you have any other question dont hesitate to spit out.
+          </p>
+
+          <div class="grid grid-cols-1 items-center gap-4 md:grid-cols-2">
+            <!-- Accordion starts -->
+
+            <div class="" id="accordion-collapse" data-accordion="collapse">
+              <h2 id="accordion-collapse-heading-1">
+                <button
+                  type="button"
+                  class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 hover:bg-gray-100"
+                  data-accordion-target="#accordion-collapse-body-1"
+                  aria-expanded="true"
+                  aria-controls="accordion-collapse-body-1"
+                >
+                  <span>What is the difference between flexbox and grid?</span>
+                  <svg
+                    data-accordion-icon
+                    class="w-6 h-6 rotate-180 shrink-0"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="accordion-collapse-body-1"
+                class="hidden"
+                aria-labelledby="accordion-collapse-heading-1"
+              >
+                <div class="p-5 font-light border border-b-0 border-gray-200">
+                  <p class="mb-2 text-gray-500">
+                    The core difference between flex and grid is that we can
+                    create one dimensional layout with flexbox either row or
+                    column.
+                  </p>
+                  <p class="text-gray-500">
+                    On the other hand grid has been created to create
+                    multidimensional layout row and column at the same time.
+                  </p>
+                </div>
+              </div>
+              <h2 id="accordion-collapse-heading-2">
+                <button
+                  type="button"
+                  class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 hover:bg-gray-100"
+                  data-accordion-target="#accordion-collapse-body-2"
+                  aria-expanded="false"
+                  aria-controls="accordion-collapse-body-2"
+                >
+                  <span>What is CSS box model and how does it work?</span>
+                  <svg
+                    data-accordion-icon
+                    class="w-6 h-6 shrink-0"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="accordion-collapse-body-2"
+                class="hidden"
+                aria-labelledby="accordion-collapse-heading-2"
+              >
+                <div class="p-5 font-light border border-b-0 border-gray-200">
+                  <p class="mb-2 text-gray-500">
+                    A box in CSS consists of a content area, which is where any
+                    text, images, or other HTML elements are displayed. This is
+                    optionally surrounded by padding, a border, and a margin, on
+                    one or more sides. The box model describes how these
+                    elements work together to create a box as displayed by CSS.
+                  </p>
+                  <p class="text-gray-500">
+                    Box model consists of content box, padding box, border box,
+                    margin box. We can control the box models behaviour with the
+                    box-sizing property.
+                  </p>
+                </div>
+              </div>
+              <h2 id="accordion-collapse-heading-3">
+                <button
+                  type="button"
+                  class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 hover:bg-gray-100"
+                  data-accordion-target="#accordion-collapse-body-3"
+                  aria-expanded="false"
+                  aria-controls="accordion-collapse-body-3"
+                >
+                  <span>What is semantic tag?</span>
+                  <svg
+                    data-accordion-icon
+                    class="w-6 h-6 shrink-0"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="accordion-collapse-body-3"
+                class="hidden"
+                aria-labelledby="accordion-collapse-heading-3"
+              >
+                <div class="p-5 font-light border border-t-0 border-gray-200">
+                  <p class="text-gray-500">
+                    Semantic tag is html meaningful tag which helps the search
+                    engines and other user devices to determine the importance
+                    and context of web pages. The pages made with semantic
+                    elements are much easier to read. It has greater
+                    accessibility. It offers a better user experience
+                  </p>
+                </div>
+              </div>
+
+              <h2 id="accordion-collapse-heading-4">
+                <button
+                  type="button"
+                  class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 hover:bg-gray-100"
+                  data-accordion-target="#accordion-collapse-body-4"
+                  aria-expanded="false"
+                  aria-controls="accordion-collapse-body-4"
+                >
+                  <span>What is the purpose of media query?</span>
+                  <svg
+                    data-accordion-icon
+                    class="w-6 h-6 shrink-0"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="accordion-collapse-body-4"
+                class="hidden"
+                aria-labelledby="accordion-collapse-heading-4"
+              >
+                <div class="p-5 font-light border border-t-0 border-gray-200">
+                  <p class="text-gray-500">
+                    Media queries are a key part of responsive web design, as
+                    they allow you to create different layouts depending on the
+                    size of the viewport, but they can also be used to detect
+                    other things about the environment your site is running on,
+                    for example whether the user is using a touchscreen rather
+                    than a mouse.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion ends -->
+
+            <img
+              class="max-w-full h-auto"
+              src="./images/faq.png"
+              loading="lazy"
+              alt="faq image"
+            />
+          </div>
+        </section>
+        <!-- FAQ SECTION ENDS -->
       </div>
     </main>
     <!-- MAIN ENDS -->
